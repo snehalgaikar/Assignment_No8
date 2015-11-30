@@ -15,7 +15,8 @@ public with sharing class Sample_class
    
   /* public void string_reverse(String str1)	//method to reverse string
    {
-       integer len=str1.length();
+      String str2;
+      integer len=str1.length();
       integer j=0;
       
       for(integer i=len;i>0;i--)
