@@ -13,19 +13,6 @@ public with sharing class Sample_class
    		System.debug('hi');		
    }  
    
-  /* public void string_reverse(String str1)	//method to reverse string
-   {
-      String str2;
-      integer len=str1.length();
-      integer j=0;
-      
-      for(integer i=len;i>0;i--)
-      {
-        str2[j]=str1[i];
-        j++;
-      }
-      System.debug(str2);
-      
-   }*/
+  
    
 }
