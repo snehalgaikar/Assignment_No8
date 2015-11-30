@@ -1,3 +1,6 @@
-trigger Sample_trigger on Object1__c (after insert) {
-    
+trigger InsertContactTrigger on Contact (after insert) {
+    Contact cont = new Contact();
+	cont.LastName = Trigger.new[0].name;
+	cont.AccountId = Trigger.new[0].ID; 
+	insert cont;
 }
